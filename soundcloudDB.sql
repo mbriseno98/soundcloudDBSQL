@@ -468,9 +468,6 @@ VALUES ("schizophrenia", 8, "Emo Rap","XXXTentacion", "?");
 INSERT INTO songs(name, album, genre, artist, album_title)
 VALUES ("before I close my eyes", 8, "Emo Rap","XXXTentacion", "?");
 
-CREATE USER 'playlist_user1' @'localhost' identified by 'playlistpass1';
-
-GRANT ALL PRIVILEGES ON soundcloudDB. * TO 'playlist_user1' @'localhost';
 
 UPDATE albums SET genre = "Cloud Rap" WHERE id = 1;
 
